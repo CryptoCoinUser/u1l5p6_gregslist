@@ -1,0 +1,108 @@
+* {box-sizing: border-box;}
+
+a {
+    text-decoration: none;
+}
+nav {
+    position: fixed;
+    background: #ddd;
+    width: 100%;
+    min-height: 3.5em;
+}
+nav a#logo {
+    color: #000;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 15px 16px;
+    display: block;
+    float: left;
+}
+nav ul {
+    text-align: right;
+    padding: 0px 2em;
+}
+nav li {
+    display: inline-block;
+}
+nav ul a {
+    color: purple;
+    padding: 0 10px;
+    font-style: 16px;
+    line-height: 20px;
+}
+main {
+	width:800px;
+    margin: 0 auto;
+    padding: 80px 5%;
+}
+form {
+    max-width: 600px;
+    margin-bottom: 2em;
+}
+label {
+    display: block;
+    line-height: 22px;
+    margin-bottom: 5px;
+}
+input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-style: 16px;
+    line-height: 24px;
+    padding: 2px 5px;
+}
+input[type="text"] {
+    min-width: 400px;
+}
+input[type="submit"] {
+    background: #ddd url(magnifying-glass.png) no-repeat center center;
+    background-size: cover;
+    text-indent: -99px;
+    min-width: 33px;
+}
+#searchNav {
+    margin-bottom: 45px;
+    font-size: 0;
+}
+#searchNav a,
+#searchNav span {
+    border: 1px solid #ccc;
+    color: #000;
+    display: inline-block;
+    font-size: 14px;
+    padding: 5px 15px;
+    line-height: 22px;
+}
+#searchNav a{
+    border-radius: 5px;
+}
+#searchNav a:first-child{
+    border-top-right-radius: 0; 
+    border-bottom-right-radius: 0;}
+#searchNav a:last-child{
+    border-top-left-radius: 0; 
+    border-bottom-left-radius: 0;
+}
+#searchNav span {
+    padding-left: 20px;
+    padding-right: 20px;
+    border-left: none;
+    border-right: none;
+}
+#results {
+    color: #aaa;
+    font-style: 14px;
+}
+#results p {
+    margin-bottom: 20px;
+}
+#results span.date {
+    padding-right: 15px;
+}
+#results a {
+    color: blue;
+    font-weight: bold;
+    padding-right: 15px;
+    font-size: 16px;
+}
+#results a:hover{text-decoration: underline;}
